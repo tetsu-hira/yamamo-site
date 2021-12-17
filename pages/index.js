@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <img src="/TOP.jpg" />
+          <Image src="/TOP.jpg" width={2592} height={1944} alt='TOP image' />
         </div>
       </main>
 
