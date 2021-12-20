@@ -6,7 +6,7 @@ export default function Header() {
       <div className='flex h-full'>
         <div className='basis-1/3 inline-block text-center w-full m-auto'>
           <Link href="/">
-            <a className='text-4xl font-semibold text-blue-600'>5S活動の記録</a>
+            <a className='text-4xl font-semibold'>5S活動の記録</a>
           </Link>
         </div>
         <ul className='flex basis-1/3 justify-center m-auto'>

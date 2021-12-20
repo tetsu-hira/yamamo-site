@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Slider from './Slider'
+import Intro from './Intro'
 
 export default function Home() {
   return (
@@ -13,11 +15,10 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <Image src="/TOP.jpg" width={2592} height={1944} alt='TOP image' />
+          <Slider />
+          <Intro />
         </div>
       </main>
-
-      
     </div>
   )
 }
