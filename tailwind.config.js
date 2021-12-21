@@ -21,7 +21,15 @@ module.exports = {
         'sans-serif'
       ]
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          light: '#FFF538',
+	        DEFAULT: '#333',
+	        dark: '#C19A32',
+        },
+      },
+    },
   },
   plugins: [],
 }

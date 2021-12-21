@@ -1,13 +1,23 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from 'next/image';
+import Link from 'next/link';
+import { useInView } from 'react-intersection-observer';
+import 'animate.css';
+
 
 export default function Intro() {
+  const { ref, inView } = useInView({
+    rootMargin: '0px',
+    triggerOnce: true,
+  });
+
   return (
     <div className='flex mt-40 mx-auto justify-center'>
       <div>
         <Link href="/">
-          <a>
-            <Image src="/5Scycle.png" width={416} height={400} alt='test' />
+          <a ref={ref}>
+            {inView && (
+              <Image  className='animate__animated animate__fadeIn' src="/5Scycle.png" width={416} height={400} alt='test' />
+            )}
           </a>
         </Link>
       </div>
