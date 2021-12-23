@@ -30,7 +30,7 @@ export default function Intro() {
           <br />今年の３月には銅賞を獲得
         </p>
         <Link href="/">
-          <a className="bg-slate-400 relative text-white my-6 block w-36 h-10 text-center leading-10 after:Font Awesome 5 Free after:duration-300 hover:after:w-16 hover:after:bg-slate-400 hover:after:content-['➡'] after:absolute hover:after:translate-x-10 after:top-0 after:left-24">今までの活動</a>
+          <a className="bg-slate-400 relative text-white my-6 block w-40 h-10 text-center leading-10 after:Font Awesome 5 Free after:duration-300 hover:after:bg-slate-400 hover:after:content-['➡'] after:absolute hover:after:translate-x-24 after:top-0 after:left-12 after:w-10">今までの活動</a>
         </Link>
       </div>
     </div>

@@ -6,7 +6,7 @@ import 'animate.css';
 
 export default function Diary() {
   const { ref, inView } = useInView({
-    rootMargin: '0px',
+    rootMargin: '-30px',
     triggerOnce: true,
   });
 

@@ -28,6 +28,11 @@ module.exports = {
 	        DEFAULT: '#333',
 	        dark: '#C19A32',
         },
+        bg: {
+          light: '#FFF538',
+	        DEFAULT: 'rgba(0,0,0,0.5)',
+	        dark: '#C19A32',
+        }
       },
     },
   },

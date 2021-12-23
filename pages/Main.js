@@ -7,7 +7,7 @@ import 'animate.css';
 
 export default function Main() {
   const { ref, inView } = useInView({
-    rootMargin: '-5px',
+    rootMargin: '30px',
     triggerOnce: true,
   });
   

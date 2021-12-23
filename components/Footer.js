@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image'
+
 
 export default function Footer() {
   return (
@@ -11,22 +13,23 @@ export default function Footer() {
           <ul className='flex basis-1/4 pt-8 justify-start'>
             <li className='px-2'>
               <Link href="/">
-                <a>icon1</a>
+                <a>
+                  <Image src="/Facebook.png" width={24} height={24} />
+                </a>
               </Link>
             </li>
             <li className='px-2'>
               <Link href="/">
-                <a>icon2</a>
+                <a>
+                  <Image src="/Twitter.png" width={24} height={24} />
+                </a>
               </Link>
             </li>
             <li className='px-2'>
               <Link href="/">
-                <a>icon3</a>
-              </Link>
-            </li>
-            <li className='px-2'>
-              <Link href="/">
-                <a>icon4</a>
+                <a>
+                  <Image src="/Instagram.png" width={24} height={24} />
+                </a>
               </Link>
             </li>
           </ul>
