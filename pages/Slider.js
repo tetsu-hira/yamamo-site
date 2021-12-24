@@ -50,13 +50,14 @@ export default function Slider() {
                 width={2592}
                 height={1944}
                 alt='TOP image'
+                priority={true}
                 className='relative'
               />
-              <div className='absolute top-3/4 left-4 m-0 p-0 bg-bg pl-5 pr-10 py-2'>
-                <p className='text-white font-bold text-3xl leading-normal'>【生産管理の5S活動】</p>
-                <p className='text-white font-bold text-3xl leading-normal'>　日々の5S活動や年に一度のPC掃除など</p>
-                <p className='text-white font-bold text-3xl leading-normal'>　金賞の獲得を目指して続けております</p>
-                <p className='text-white text-xl leading-normal'>　　～2020年・4月から活動開始～</p>
+              <div className='absolute top-3/4 left-4 m-0 p-0 bg-bg pl-5 pr-10 py-2 '>
+                <p className='text-white font-bold lg:text-3xl md:text-2xl text-xl lg:leading-normal'>【生産管理の5S活動】</p>
+                <p className='text-white font-bold lg:text-3xl md:text-2xl text-xl lg:leading-normal'>　日々の5S活動や年に一度のPC掃除など</p>
+                <p className='text-white font-bold lg:text-3xl md:text-2xl text-xl lg:leading-normal'>　金賞の獲得を目指して続けております</p>
+                <p className='text-white lg:text-xl md:text-base text-sm leading-normal'>　　～2020年・4月から活動開始～</p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -65,6 +66,7 @@ export default function Slider() {
                 width={2592}
                 height={1944}
                 alt='TOP image'
+                priority={true}
               />
               <div className='absolute top-3/4 left-4 m-0 p-0 bg-bg pl-5 pr-10 py-2'>
                 <p className='text-white font-bold text-3xl leading-normal'>【生産管理の5S活動】</p>

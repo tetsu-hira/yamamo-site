@@ -24,7 +24,13 @@ export default function Finish() {
       </div>
       <div className='mt-24' ref={ref}>
         {inView && (
-          <Image className='animate__animated animate__fadeInUp' src="/fin.jpg" width={2592} height={1944} alt='fin' />
+          <Image className='animate__animated animate__fadeInUp'
+            src="/fin.jpg"
+            width={2592}
+            height={1944}
+            alt='fin'
+            priority={true}
+          />
         )}
       </div>
     </>
